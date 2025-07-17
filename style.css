@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.class01{
+    display: flex;
+    flex-direction: row;
+
+}
+.class0{
+    color: white;
+    background-color: #005763;
+    height: 790px;
+    width: 50%;
+}
+.class0 h3{
+    margin-left: 20px;
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    margin-top: 28px;
+    color: wheat;
+}
+.class0 a{
+    margin-left: 23px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color : white;
+    
+}
+.class0 a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+.p1{
+    margin-left: 80px;
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    margin-top: 25%;
+    color: wheat;
+}
+.class0 h2{
+    margin-left: 80px;
+    font-size: 70px;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    
+}
+.p2{
+    margin-left: 80px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    color: wheat;
+}
+
+.class1{
+    
+    height: 790px;
+    width: 50%;
+    background-image: url(sharif.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+.class02{
+    height: 500px;
+    background-color: #f1f1f1;
+}
+.class02 h1{
+    color: #005763;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 55px;
+}
+.class02 p{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+}
+.button{
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: yellow;
+    color: green;
+      
+    line-height: 50px;
+    margin: 20px auto;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.button:hover{
+    background-color: #005763;
+    color: yellow;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+        
+    }
+    to {
+        transform: translateX(0);
+        
+    }
+    
+}
+.class03{
+    height: 280px;
+    color: #005763;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 65px;
+    
+
+}
+.class03 h2{
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+    
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+    
+
+}
+.class04{
+    display: flex;
+    height: 490px;
+    background-color: #3d4141;
+    text-align: center;
+   
+    font-size: 70px;
+}
+ .class04 #gang-video{
+    
+    
+    
+    background-color: black;
+    height: 490px;
+    width: 100%;
+    
+ }
+.class05{
+    height: 1400px;
+    
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    color: #005763;
+}
+.class05 img{
+    width: 400px;
+    height: 500px;
+    display: flexbox;
+    
+}
+.class05 img:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+ 
+}
+.class06{
+    height: 790px;
+    background-color: #005763;
+    color: wheat;
+    display: flex;
+}
+.class3{
+    background-color: blue;
+    height: 790px;
+    width: 50%;
+    background-image: url(sharif.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.class4{
+    color: white;
+    background-color: #005763;
+    height: 790px;
+    width: 50%; 
+}
+.class4 h2{
+    margin-left: 100px;
+    font-size: 70px;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    color: wheat;
+    padding-top: 50px;
+}
+.class4 h3{
+    margin-left: 100px;
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    margin-top: 28px;
+    
+}
+.class4 h4{
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color : white;
+    
+}
+.class4 h4:hover{
+    color: yellow;
+    text-decoration: none;
+}
+.class4 p{
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    
+}
+.class4 ion-icon{
+    
+    padding-top: 30px;
+    
+    padding-left: 100px;
+   
+    
+}
+.class4 ion-icon:hover{
+    color: yellow;
+    font-size: 50px;
+    
+}
+.class07{
+    height: 80px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+    
+    display: flex;
+}
